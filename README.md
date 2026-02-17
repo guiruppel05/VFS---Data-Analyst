@@ -31,11 +31,11 @@ Exportação de um dataset final, pronto para consumo no Power BI
 
 Dataset final utilizado no Power BI: insurance_dashboard_final.csv  
 
-<h2>4. Decisões de Tratamento de Dados  </h2>
+<h2>4. Decisões de Tratamento de Dados</h2>
 
 Todas as decisões foram documentadas em etapa específica dentro do notebook e orientadas pela interpretabilidade de negócio e robustez analítica.  
 
-<h2>5. KPIs Definidos  </h2>
+<h2>5. KPIs Definidos</h2>
 
 Total de Clientes  
 Total de Sinistros  
@@ -45,7 +45,7 @@ A Taxa de Sinistro é definida de forma consistente como: Taxa de Sinistro = Tot
 
 A mesma métrica é utilizada em todos os visuais e páginas do dashboard.
 
-6. Dashboard (Power BI)
+<h2>6. Dashboard (Power BI)</h2>
 
 O dashboard em Power BI está estruturado em três níveis analíticos:
 
@@ -65,7 +65,7 @@ P3 – Recomendações de Negócio
 
 4 recomendações objetivas, orientadas por dados, com foco em precificação, segmentação e enriquecimento de dados  
 
-7. Como Executar o Projeto
+<h2>7. Como Executar o Projeto</h2>
 
 Análise em Python  
 
@@ -78,13 +78,13 @@ Power BI
 Abra o arquivo: dashboard/VFS - Data Analyst Technical Interview.pbix  
 Caso solicitado, atualize o caminho da fonte de dados para: insurance_dashboard_final.csv  
 
-8. Principais Decisões Analíticas
+<h2>8. Principais Decisões Analíticas</h2>
 
 Foco em frequência de sinistros, não severidade (informação de severidade indisponível)  
 Priorização de segmentações interpretáveis, em vez de modelos complexos  
 Alinhamento total entre EDA, visuais do dashboard e recomendações finais  
 
-9. Limitações do Dataset
+<h2>9. Limitações do Dataset</h2>
 
 Ausência de dados de severidade dos sinistros  
 Valor de mercado dos veículos não disponível  
@@ -92,7 +92,7 @@ Exposição assumida uniforme entre clientes
 Algumas variáveis funcionam como proxies (ex.: ano do veículo em vez de preço)  
 Resultados refletem padrões históricos e podem não capturar mudanças futuras de comportamento  
 
-10. Autor
+<h2>10. Autor</h2>
 
 Guilherme Ruppel  
 Data Analyst  
