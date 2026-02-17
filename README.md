@@ -67,6 +67,14 @@ P3 – Recomendações de Negócio
 
 <h2>7. Como Executar o Projeto</h2>
 
+Obs.: antes de rodar o notebook em Python pode ser necessário realizar a instalação dos pacotes utilizados no programa:  
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- scikit-learn
+O comando pip install pandas numpy matplotlib seaborn scikit-learn inserido no cmd do Windows resolve essa instalação.
+
 Análise em Python  
 
 Abra o notebook: notebooks/VFS - Data Analyst Technical Interview.ipynb  
