@@ -1,13 +1,14 @@
 # VFS - Data Analyst Technical Interview
 
-1. Visão Geral do Projeto
+# 1. Visão Geral do Projeto
 
 Este projeto tem como objetivo analisar dados históricos de seguro automotivo para identificar os principais sinais associados a maior risco de sinistros e transformar os achados analíticos em insights acionáveis para o negócio.
 A solução contempla análise exploratória de dados (EDA), segmentação de risco e um dashboard em Power BI, com foco em apoiar decisões de precificação, underwriting e retenção.
 
 Nota: O projeto, o notebook e o dashboard foram desenvolvidos em inglês, considerando o contexto de um ambiente corporativo multinacional. Este README foi disponibilizado em português para facilitar a leitura e avaliação do processo.
 
-2. Estrutura do Repositório  
+<h2>2. Estrutura do Repositório</h2>
+
 ├── data/  
 │   └── Car_Insurance_Claim.csv  
 │   └── insurance_dashboard_final.csv  
