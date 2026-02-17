@@ -8,14 +8,14 @@ A solução contempla análise exploratória de dados (EDA), segmentação de ri
 Nota: O projeto, o notebook e o dashboard foram desenvolvidos em inglês, considerando o contexto de um ambiente corporativo multinacional. Este README foi disponibilizado em português para facilitar a leitura e avaliação do processo.
 
 2. Estrutura do Repositório
-├── data/
-│   └── Car_Insurance_Claim.csv
-│   └── insurance_dashboard_final.csv
-├── notebooks/
-│   └── VFS - Data Analyst Technical Interview.ipynb
-├── dashboard/
-│   └── VFS - Data Analyst Technical Interview.pbix
-└── README.md
+├── data/  
+│   └── Car_Insurance_Claim.csv  
+│   └── insurance_dashboard_final.csv  
+├── notebooks/  
+│   └── VFS - Data Analyst Technical Interview.ipynb  
+├── dashboard/  
+│   └── VFS - Data Analyst Technical Interview.pbix  
+└── README.md  
 
 3. Preparação e Processamento dos Dados (Python)
 
