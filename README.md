@@ -50,49 +50,49 @@ O dashboard em Power BI está estruturado em três níveis analíticos:
 
 P1 – Visão Geral
 
-KPIs principais (clientes, sinistros, taxa de sinistro)
-Distribuição de sinistros por idade, experiência de direção, gênero e estado civil
-Taxa de sinistro por histórico de acidentes
+KPIs principais (clientes, sinistros, taxa de sinistro)  
+Distribuição de sinistros por idade, experiência de direção, gênero e estado civil  
+Taxa de sinistro por histórico de acidentes  
 
 P2 – Drivers e Interações
 
-Filtros interativos (idade, gênero, estado civil, experiência, renda, tipo e ano do veículo)
-Heatmaps: Experiência de Direção × Acidentes Anteriores e Renda × Escolaridade
-Total de Sinistros por tipo e ano do veículo
+Filtros interativos (idade, gênero, estado civil, experiência, renda, tipo e ano do veículo)  
+Heatmaps: Experiência de Direção × Acidentes Anteriores e Renda × Escolaridade  
+Total de Sinistros por tipo e ano do veículo  
 
 P3 – Recomendações de Negócio
 
-4 recomendações objetivas, orientadas por dados, com foco em precificação, segmentação e enriquecimento de dados
+4 recomendações objetivas, orientadas por dados, com foco em precificação, segmentação e enriquecimento de dados  
 
 7. Como Executar o Projeto
 
-Análise em Python
+Análise em Python  
 
-Abra o notebook: notebooks/VFS - Data Analyst Technical Interview.ipynb
-Execute todas as células em sequência.
-O dataset final será exportado automaticamente para uso no Power BI.
+Abra o notebook: notebooks/VFS - Data Analyst Technical Interview.ipynb  
+Execute todas as células em sequência.  
+O dataset final será exportado automaticamente para uso no Power BI.  
 
-Power BI
+Power BI  
 
-Abra o arquivo: dashboard/VFS - Data Analyst Technical Interview.pbix
-Caso solicitado, atualize o caminho da fonte de dados para: insurance_dashboard_final.csv
+Abra o arquivo: dashboard/VFS - Data Analyst Technical Interview.pbix  
+Caso solicitado, atualize o caminho da fonte de dados para: insurance_dashboard_final.csv  
 
 8. Principais Decisões Analíticas
 
-Foco em frequência de sinistros, não severidade (informação de severidade indisponível)
-Priorização de segmentações interpretáveis, em vez de modelos complexos
-Alinhamento total entre EDA, visuais do dashboard e recomendações finais
+Foco em frequência de sinistros, não severidade (informação de severidade indisponível)  
+Priorização de segmentações interpretáveis, em vez de modelos complexos  
+Alinhamento total entre EDA, visuais do dashboard e recomendações finais  
 
 9. Limitações do Dataset
 
-Ausência de dados de severidade dos sinistros
-Valor de mercado dos veículos não disponível
-Exposição assumida uniforme entre clientes
-Algumas variáveis funcionam como proxies (ex.: ano do veículo em vez de preço)
-Resultados refletem padrões históricos e podem não capturar mudanças futuras de comportamento
+Ausência de dados de severidade dos sinistros  
+Valor de mercado dos veículos não disponível  
+Exposição assumida uniforme entre clientes  
+Algumas variáveis funcionam como proxies (ex.: ano do veículo em vez de preço)  
+Resultados refletem padrões históricos e podem não capturar mudanças futuras de comportamento  
 
 10. Autor
 
-Guilherme Ruppel
-Data Analyst
-Fevereiro de 2026
+Guilherme Ruppel  
+Data Analyst  
+Fevereiro de 2026  
