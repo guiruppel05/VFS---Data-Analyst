@@ -72,8 +72,8 @@ Obs.: antes de rodar o notebook em Python pode ser necessário realizar a instal
 - numpy  
 - matplotlib  
 - seaborn  
-- scikit-learn
-O comando pip install pandas numpy matplotlib seaborn scikit-learn inserido no cmd do Windows resolve essa instalação.
+- scikit-learn  
+O comando <i>pip install pandas numpy matplotlib seaborn scikit-learn</i> inserido no cmd do Windows resolve essa instalação.
 
 Análise em Python  
 
