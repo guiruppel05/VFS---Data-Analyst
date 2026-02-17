@@ -23,26 +23,24 @@ Todas as etapas de preparação e análise dos dados estão implementadas no not
 
 Principais etapas:
 
-Auditoria dos dados (tipos, missing, duplicidades e outliers)
-Engenharia de atributos e criação de faixas (idade, experiência, acidentes, quilometragem)
-Segmentação de risco e cálculo de KPIs
-Exportação de um dataset final, pronto para consumo no Power BI
+Auditoria dos dados (tipos, missing, duplicidades e outliers)  
+Engenharia de atributos e criação de faixas (idade, experiência, acidentes, quilometragem)  
+Segmentação de risco e cálculo de KPIs  
+Exportação de um dataset final, pronto para consumo no Power BI  
 
-Dataset final utilizado no Power BI: insurance_dashboard_final.csv
+Dataset final utilizado no Power BI: insurance_dashboard_final.csv  
 
 4. Decisões de Tratamento de Dados  
 
-Todas as decisões foram documentadas em etapa específica dentro do notebook e orientadas pela interpretabilidade de negócio e robustez analítica.
+Todas as decisões foram documentadas em etapa específica dentro do notebook e orientadas pela interpretabilidade de negócio e robustez analítica.  
 
-5. KPIs Definidos
+5. KPIs Definidos  
 
-Total de Clientes
-Total de Sinistros
-Taxa de Sinistro (%)
+Total de Clientes  
+Total de Sinistros  
+Taxa de Sinistro (%)  
 
-A Taxa de Sinistro é definida de forma consistente como:
-
-Taxa de Sinistro = Total de Sinistros / Total de Clientes
+A Taxa de Sinistro é definida de forma consistente como: Taxa de Sinistro = Total de Sinistros / Total de Clientes  
 
 A mesma métrica é utilizada em todos os visuais e páginas do dashboard.
 
