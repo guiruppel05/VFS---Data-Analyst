@@ -7,7 +7,7 @@ A solução contempla análise exploratória de dados (EDA), segmentação de ri
 
 Nota: O projeto, o notebook e o dashboard foram desenvolvidos em inglês, considerando o contexto de um ambiente corporativo multinacional. Este README foi disponibilizado em português para facilitar a leitura e avaliação do processo.
 
-2. Estrutura do Repositório
+2. Estrutura do Repositório  
 ├── data/  
 │   └── Car_Insurance_Claim.csv  
 │   └── insurance_dashboard_final.csv  
@@ -36,19 +36,15 @@ Exportação de um dataset final, pronto para consumo no Power BI
 Dataset final utilizado no Power BI:
 insurance_dashboard_final.csv
 
-4. Decisões de Tratamento de Dados
-Variável	Problema	Tratamento	Justificativa
-CREDIT_SCORE	Valores ausentes	Criação da categoria "Unknown"	Ausência de informação pode indicar maior risco
-ANNUAL_MILEAGE	Valores ausentes	Imputação pela mediana por segmento	Reduz impacto de valores extremos
-Variáveis categóricas	Categorias sem ordem	Ordenação explícita	Garante correta interpretação visual
-Acidentes e infrações	Distribuição assimétrica	Binning	Melhora interpretabilidade e estabilidade
-| CREDIT_SCORE        | Missing  | Criar categoria "Unknown" | Missing pode ser sinal de risco |
-| CREDIT_SCORE        | Outliers | Manter                    | Limites naturais                |
-| ANNUAL_MILEAGE      | Missing  | Imputar mediana por grupo | Evita viés extremo              |
-| AGE                 | Ordinal  | Mapear                    | Relação monotônica com risco    |
-| SPEEDING_VIOLATIONS | Contagem | Manter                    | Valores plausíveis              |
-
-Todas as decisões foram documentadas e orientadas pela interpretabilidade de negócio e robustez analítica.
+4. Decisões de Tratamento de Dados  
+| Variável	            | Problema                 | Tratamento	               | Justificativa                             |  
+| CREDIT_SCORE          | Missing                  | Criar categoria "Unknown" | Missing pode ser sinal de risco           |  
+| CREDIT_SCORE          | Outliers                 | Manter                    | Limites naturais                          |  
+| ANNUAL_MILEAGE        | Missing                  | Imputar mediana por grupo | Reduz impacto de valores extremos         |  
+| AGE                   | Ordinal                  | Mapear                    | Relação monotônica com risco              |  
+| SPEEDING_VIOLATIONS   | Contagem                 | Manter                    | Valores plausíveis                        |  
+| Variáveis categóricas |	Categorias sem ordem     | Ordenação explícita	     | Garante correta interpretação visual      |  
+| Acidentes e infrações	| Distribuição assimétrica | Binning	                 | Melhora interpretabilidade e estabilidade |  
 
 5. KPIs Definidos
 
