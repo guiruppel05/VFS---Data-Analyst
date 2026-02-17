@@ -37,7 +37,7 @@ Dataset final utilizado no Power BI:
 insurance_dashboard_final.csv
 
 4. Decisões de Tratamento de Dados  
-| Variável	            | Problema                 | Tratamento	               | Justificativa                             |  
+| Variável--------------| Problema                 | Tratamento	               | Justificativa                             |  
 | CREDIT_SCORE          | Missing                  | Criar categoria "Unknown" | Missing pode ser sinal de risco           |  
 | CREDIT_SCORE          | Outliers                 | Manter                    | Limites naturais                          |  
 | ANNUAL_MILEAGE        | Missing                  | Imputar mediana por grupo | Reduz impacto de valores extremos         |  
