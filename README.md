@@ -1,6 +1,6 @@
 # VFS - Data Analyst Technical Interview
 
-# 1. Visão Geral do Projeto
+<h2>1. Visão Geral do Projeto</h2>
 
 Este projeto tem como objetivo analisar dados históricos de seguro automotivo para identificar os principais sinais associados a maior risco de sinistros e transformar os achados analíticos em insights acionáveis para o negócio.
 A solução contempla análise exploratória de dados (EDA), segmentação de risco e um dashboard em Power BI, com foco em apoiar decisões de precificação, underwriting e retenção.
@@ -18,7 +18,7 @@ Nota: O projeto, o notebook e o dashboard foram desenvolvidos em inglês, consid
 │   └── VFS - Data Analyst Technical Interview.pbix  
 └── README.md  
 
-3. Preparação e Processamento dos Dados (Python)
+<h2>3. Preparação e Processamento dos Dados (Python)</h2>
 
 Todas as etapas de preparação e análise dos dados estão implementadas no notebook: VFS - Data Analyst Technical Interview.ipynb
 
@@ -31,11 +31,11 @@ Exportação de um dataset final, pronto para consumo no Power BI
 
 Dataset final utilizado no Power BI: insurance_dashboard_final.csv  
 
-4. Decisões de Tratamento de Dados  
+<h2>4. Decisões de Tratamento de Dados  </h2>
 
 Todas as decisões foram documentadas em etapa específica dentro do notebook e orientadas pela interpretabilidade de negócio e robustez analítica.  
 
-5. KPIs Definidos  
+<h2>5. KPIs Definidos  </h2>
 
 Total de Clientes  
 Total de Sinistros  
